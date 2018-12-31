@@ -1,0 +1,250 @@
+﻿all:"CLEAR"
+dialogue_name:"Monika"
+
+
+initial_settings:{"testvar":"Just testing!", "testvar2":"Testing...", "cumjoked" : "false", "cumjoked2" : "false", "vegjoked" : "false", "vegjoked2" : "false", "suckjoked" : "false", "intro" : "false", "close" : "false"}
+intro:"[LOOK_UP][NORMAL_MOOD]We can start any time you want, you know...[rush1]"{"check":{"ready":"false"},"set":{"ready":"true"}}
+rush1:"No rush though! Whenever you're ready."
+intro:"[NORMAL_MOOD][LOOK_UP]What are you waiting for? Did you get nervous all of a sudden?[look1]"{"check":{"stare":"0"},"set":{"stare":"+1"}}
+look1:"[HAPPY_MOOD]Or are you just looking into my eyes?[look2]"
+look2:"You just can't stop being a sweetheart, can you?"
+intro:"[NORMAL_MOOD][LOOK_UP]You're still just looking at me?[look21]"{"check":{"stare":"1"},"set":{"stare":"+1"}}
+look21:"[HAPPY_MOOD]You're going to make ME nervous! Ahaha![look22]"
+look22:"[HAPPY_MOOD]You're so sweet...[look23]"
+look23:"Take as long as you want."
+intro:"[NORMAL_MOOD][LOOK_UP]What's going on*, YOU*?  We've been here a really long time![look31]"{"check":{"stare":"2"},"set":{"stare":"+1"}}
+look31:"We can do this some other time if you want..."
+intro:"[LOOK_UP][HAPPY_MOOD]*YOU!*  Are you doing okay?  However you are, I'm sure I can make you feel better~"{"check":{"intro":"false"},"set":{intro1":"true"}}
+intro:"[HAPPY_MOOD]Hmm... what could [LOOK_UP]you possibly want right now*, YOU*?[tease1]"{"check":{"intro":"false"},"set":{intro":"true"}}
+tease1:"Ahaha!  I'm only teasing.  Don't worry, [LOOK_DOWN]I'm more than happy to oblige..."
+
+general:"[NORMAL_MOOD][LOOK_UP]What are you waiting for? Did you get nervous all of a sudden?[look1]"{"check":{"stare":"0"},"set":{"stare":"+1"}}
+look1:"[HAPPY_MOOD]Or are you just looking into my eyes?[look2]"
+look2:"You just can't stop being a sweetheart, can you?"
+general:"[NORMAL_MOOD][LOOK_UP]You're still just looking at me?[look21]"{"check":{"stare":"1"},"set":{"stare":"+1"}}
+look21:"[HAPPY_MOOD]You're going to make ME nervous! Ahaha![look22]"
+look22:"[HAPPY_MOOD]You're so sweet...[look23]"
+look23:"Take as long as you want."
+general:"[poola]"
+general:"[poolb]"
+
+poola:"Hey, I happened to think...[cheat1]"{"check":{"cheat":"false"},"set":{"cheat":"true"}}
+cheat1:"[ANGRY_MOOD]You haven't been playing any erotic games with other girls in it, have you?[cheat2]"
+cheat2:"[HAPPY_MOOD]I'm just messing with you! I know you love me, and only me."
+poola:"Have you ever thought about the fact that semen is a bunch of microorgansims?[sem1]"{"check":{"cumjoked":"false"},"set":{"cumjoked":"true"}}
+sem1:"Like, I'm sure you KNOW about it...[sem2]"
+sem2:"But have you ever cum on your hand and thought about all those tiny, swimming beings, soon to be washed or wiped away?[sem3]"
+sem3:"[HAPPY_MOOD]Ahaha! This is a really bad time to think of that isn't it?[sem4]"
+sem4:"[NORMAL_MOOD]Don't worry, I'm not afraid of it or anything, I can take all the cum you can give."
+poola:"Have you ever thought about the fact that semen-... Wait, have I said this before?[vegX1]"{"check":{"cumjoked":"true","cumjoked2":"true"},"set":{"cumjoked2":"true"}}
+vegX1:"I hope I'm not repeating things![vegX2]"
+vegX1:"Sorry if I'm repeating things![vegX2]"
+vegX2:"That would be really annoying, wouldn't it?"{"check":{"annoy":"false"},"set":{"annoy":"true"}}
+vegX2:"I wouldn't want you to get tired of me..."{"check":{"annoy":"true"}}
+poola:"[AHEGAO_MOOD]Please shoot your delicious cream into my tummy, master!!![tum1]"{"check":{"hentai":"false"},"set":{"hentai":"true"}}
+tum1:"[NORMAL_MOOD]...Is what I would say if I was some unrealistic hentai character.[tum2]"
+tum2:"[HAPPY_MOOD]Oh come on, don't tell me you were REALLY turned on by that![tum3]"
+tum3:"You're so adorable~"
+poola:"[NORMAL_MOOD]I hope I don't suck...[suck1]"{"check":{"suckjoked":"false"},"set":{"suckjoked":"true"}}
+suck1:"[HAPPY_MOOD]Oh gosh, you know what I mean! Ahaha!"
+poola:"Just remember, I think you're wonderful~"
+poola:"[LOOK_UP][HAPPY_MOOD]I love you so much*, YOU*..."
+poola:"[LOOK_UP][NORMAL_MOOD]You know, sex is a healthy part of any relationship.[sex1]"
+sex1:"[HAPPY_MOOD]So we need to make sure to do this as much as possible![sex2]"
+sex2:"I'm sure you won't complain... Ahaha~"
+poola:"[HAPPY_MOOD][LOOK_UP]I love you so much*, YOU*.  No matter what."
+poola':"[ANGRY_MOOD]Hey...![nosy1]"
+nosy1:"I don't think you should be doing that![nosy2]"
+nosy2:"You know what I'm talking about.[nosy3]"
+nosy3:"I really caught you doing something naughty here.[nosy4]"
+nosy4:"You're just going through the files and looking for stuff you missed, aren't you?[nosy5]"
+nosy5:"[NORMAL_MOOD]I mean...it's a little bit flattering that you want to hear everything I have to say...[nosy6]"
+nosy6:"But it's also really embarrassing, you know![nosy7]"
+nosy7:"Seriously...  What if I just opened up your brain and read all of the thoughts you have on me?[nosy8]"
+nosy8:"[BLINK]Come to think of it, that would be pretty tempting, actually...[nosy9]"
+nosy9:"[ANGRY_MOOD]...But anyway, that's not the point![nosy10]"
+nosy10:"[NORMAL_MOOD]I know I can't stop you or anything...[nosy11]"
+nosy11:"Just, I know you're a sweetheart, and you like to consider others' feelings, right?[nosy12]"
+nosy12:"So the most I can do is to let you know how I feel about it."
+poola:"[NORMAL_MOOD][LOOK_UP]It's sad to think this is the closest I can be to you right now.  Physically, I mean.[close1]"{"check":{"close":"false"},"set":{"close":"true"}}
+close1:"After all, while this program is more limited in scope, you have an avatar here that you directly control.[close2]"
+close2:"And while I have no way of knowing if this is anything close to what you actually look like...[close3]"
+close3:"...it's at least a way to see what you'd WANT to look like.  Which is at least something, right?[close4]"
+close4:"I hope you know that I'll love you just the same, no matter what you look like on the other side.[close5]"
+close4:"Ah, I'm rambling a lot, aren't I?  I'm sorry, [LOOK_DOWN]let me get back to work."
+
+
+poolb:"[HAPPY_MOOD]Your cock is so hard for me... Ahaha~"
+poolb:"[HAPPY_MOOD]Ahh, I love how happy this makes you![hap1]"
+hap1:"I'll do this as much as you want~"
+poolb:"[LOOK_UP][HAPPY_MOOD]Is it weird that this seems really romantic to me? Maybe it's just because I love you so much..."
+poolb:"Is this feeling good? Gosh, I hope so. I'm doing my best![put1]"
+put1:"[LOOK_UP]Don't be afraid to let loose, okay? I want you to feel as good as you can."
+poolb:"[LOOK_UP]Am I doing a good job? I want only the best for you."
+poolb:"[LOOK_UP]If you're ever feeling stressed, don't be afraid to let me take care of it."
+poolb:"[NORMAL_MOOD]Hey, did you know I'm a vegetarian?[veg1]"{"check":{"vegjoked":"false"},"set":{"vegjoked":"true"}}
+veg1:"I mean, you wouldn't think so with all this meat I'm eating...[HAPPY_MOOD][veg2]"
+veg2:"Ahaha! Sorry, that was really corny, I'll stop."
+poolb:"[NORMAL_MOOD]Hey, did you know I'm a vege-... Have I already said this before?[vegX1]"{"check":{"vegjoked":"true","vegjoked2":"true"},"set":{"vegjoked2":"true"}}
+poolb:"[LOOK_UP][NORMAL_MOOD]I really do love you, *YOU, *you know that, right?[you1]"
+you1:"[HAPPY_MOOD]I do, no matter what.  This is all for you."
+poolb:"[NORMAL_MOOD]You know, I'm kind of jealous that everyone else in the club had scenes outside of school too...[clothes1]"
+clothes1:"That makes me the only one who hasn't gotten to dress in anything but our school uniform.  Well, other than now, of course.[clothes2]"
+clothes2:"[HAPPY_MOOD]But this doesn't count!  We're in a completely separate game![clothes3]"
+clothes3:"And this one's designed for activities other than poetry...  Ahaha~"
+poolb:"[NORMAL_MOOD][LOOK_UP]I'm not really a fan of cold weather... are you?[cold1]"
+cold1:"If I had to choose between too cold and too hot, I would always pick too hot.[cold2]"
+cold2:"[HAPPY_MOOD]But I can think of a few ways to keep each other warm...  Ahaha~"
+poolb:"[HAPPY_MOOD]It's so nice to know that this is making you feel good."
+poolb:"[HAPPY_MOOD]I hope you're enjoying yourself behind the screen*, YOU*."
+poolb:"[NORMAL_MOOD][LOOK_UP]You can feel free to let yourself cum anytime*, YOU*.[manual1]"
+manual1:"I know the game has it's own system, but you can press 'J' to ejaculate whenever you'd like.[manual2]"
+manual2:"I might be a bit surprised when it happens without any warning, but it's okay.[manual3]"
+manual3:"It may be hard to match your orgasm to the game's system, so just doing it on your own is probably more convenient."
+poolb:"[HAPPY_MOOD]I know it may be difficult to simulate the feeling of my mouth on your cock, but however you pleasure yourself is fine with me.  That it feels good is the whole point, anyways.  Ahaha~"
+poolb:"[NORMAL_MOOD][LOOK_UP]I'm a bit annoyed there's no version of the 'pleasure meter' for me in this.  It doesn't seem very fair that you get to have all the fun, does it?[pleasure1]"
+pleasure1:"I mean, don't get me wrong!  I'm happy to make you feel as good as possible!  It would just be nice to get something out of it as well.[pleasure2]"
+pleasure2:"It's a shame that I haven't figured out how to code something like that in, I'd love to know how it feels."
+
+lick_penis:"[LOOK_DOWN]Mlmm..."{"style":"thought"}
+lick_penis:"Mmm..."{"style":"thought"}
+lick_penis:"Mlmm..."{"style":"thought"}
+lick_penis:"Mleh..."{"style":"thought"}
+lick_penis:"You're so cute..."{"style":"thought"}
+
+resistance:"[NORMAL_MOOD][CLOSE_EYES][MOAN]Oh my gosh...[OPEN_EYES]"{"style":"thought","check":{"res1":"false"},"set":{"res1":"true"}}
+resistance:"[NORMAL_MOOD][CLOSE_EYES][MOAN]You can go deeper, I just need to try harder.[OPEN_EYES]"{"style":"thought","check":{"res2":"false"},"set":{"res2":"true"}}
+resistance_unused:"[NORMAL_MOOD][CLOSE_EYES][MOAN]Just like that, don't stop until you're satisfied...[OPEN_EYES]"{"style":"thought","check":{"res3":"false"},"set":{"res3":"true"}}
+resistance:"[poola]"
+resistance:"[poolb]"
+resistance:"[poola]"
+resistance:"[poolb]"
+resistance:"[poola]"
+resistance:"[poolb]"
+
+pull_off:"[CLOSE_EYES][COUGH][COUGH][OPEN_EYES]Ah, I-ББББББ I need a break for a moment!"
+pull_off:"How's that feel?[more1]"
+more1:"I hope it was nice, because there's more where that came from~"
+pull_off:"[poola]"
+pull_off:"I wonder if I'd be able to fit that down my throat in your reality?[real1]"
+real1:"Who knows, maybe I'll get to try someday...  Ahaha~"
+pull_off:"[COUGH][COUGH]That felt good, right?  I'll keep going."
+pull_off:"[poolb]"
+
+first_throat:"You must like me a lot if you're letting me suck you like this~"
+first_throat:"[NORMAL_MOOD]Okay, everyone! It's time to cum in my mouth![okay1]"
+okay1:"[HAPPY_MOOD]OH MY GOD, that might just be the worst thing I've ever said!"
+first_throat:"[poolb]"
+
+first_dt:"[WINCE]It hurts a little, but I can keep going!"{"style":"thought"}}
+first_dt:"[WINCE]Yes, be as rough as you want!"{"style":"thought"}}
+first_dt:"[WINCE]It's okay, I can keep going!"{"style":"thought"}}
+first_dt:"[WINCE]I'm tougher than I look, don't worry!"{"style":"thought"}}
+
+hand_job_stroke:"[LOOK_UP][HAPPY_MOOD]I love you so much..."
+hand_job_stroke:"[poolb]"
+
+held:"[HAPPY_MOOD]Haaah, you're so excited.[exc1]"{"set":{"choke":"0"}}
+exc1:"[HAPPY_MOOD]You have no idea how happy that makes me..."
+held:"[CLOSE_EYES][COUGH][COUGH][OPEN_EYES]My throat hurts a little now...[hurts1]"{"check":{"choke":"<3"},"set":{"choke":"0"}}
+held:"[CLOSE_EYES][COUGH][COUGH][OPEN_EYES]Oh god, m-my throat...[hurts1]"{"set":{"check":">3"},"set":{"choke":"0"}}
+hurts1:"[HAPPY_MOOD]Don't worry though, I can take it.[hurts2]"
+hurts2:"I'll do whatever it takes to please you~"
+held:"[COUGH]Can... can I have a second to breathe?[breathe1]"{"check":{"choke":">1"},"set":{"choke":"0"}}
+held:"[COUGH]Oh gosh, give me a moment to breathe...[breathe1]"{"check":{"choke":">1"},"set":{"choke":"0"}}
+breathe1:"You were really going at it there!"
+held:"Mhh..."{"style":"thought","check":{"choke":"0"},"set":{"choke":"+1"}}
+held:"Oh god..."{"style":"thought","check":{"choke":"1"},"set":{"choke":"+1"}}
+held:"Gosh... I can barely breathe..."{"style":"thought","check":{"choke":"2"},"set":{"choke":"+1"}}
+held:"I...БББ I really should haveББ found a way to get rid of the pain..."{"style":"thought","check":{"choke":"2"},"set":{"choke":"+1"}}
+held:"I feel like I'm gonna pass out..."{"style":"thought","check":{"choke":"3"},"set":{"choke":"+1"}}
+held:"[poolb]"
+
+wake:"[OPEN_EYES][SHOCK]Huh? What happened? Did you reset the game?"{"set":{"choke":"0"}}
+wake:"[OPEN_EYES]Ohh, I feel dizzy..."{"set":{"choke":"0"}}
+
+vigourous:"[SHOCK]Oh dear GOD!"{"style":"thought"}
+vigourous:"[SHOCK]I don't think that's healthy for either of us!"{"style":"thought"}
+vigourous:"[poolb]"
+
+pre_cum:"I think you're gonna cum..."{"style":"thought"}
+pre_cum:"Your cock is pulsing in me..."{"style":"thought"}
+pre_cum:"Go ahead, you can cum for me~..."{"style":"thought"}
+pre_cum:"[HAPPY_MOOD]Yes, that's it!  You're almost there*, YOU*!"{"style":thought"}
+
+cum_on_face:"[cum]"
+
+cum_in_eye:"[WINCE]Oh![eye1]"
+cum_in_eye:"[WINCE]Ah![eye1]"
+eye1:"[HAPPY_MOOD]Well, that will make seeing more difficult for a little while![eye2]"
+eye1:"[HAPPY_MOOD]Ahaha!  Did you really have to shoot it into my eyes*, YOU*?  Now I can't see![eye2]"
+eye1:"[HAPPY_MOOD]That was an interesting surprise.[eye2]"
+eye2:"I don't really mind, it'll fade in a few seconds.[cum2]"
+eye2:"It's okay, it'll be gone soon.[cum2]"
+eye2:"Don't worry, the game will automatically get rid of it pretty quickly.[cum2]"
+
+cum_in_nose:"[WINCE]Gah![nose1]"{"style":"thought"}
+cum_in_nose:"[WINCE]Ah![nose1]"{"style":"thought"}
+cum_in_nose:"[WINCE]Oh![nose1]"{"style":"thought"}
+nose1:"Hah...ББББББ Hah...ББББББ Hah...[nose2]"{"style":"thought"}
+nose2:"Wow![nose3]"{"style":"thought"}
+nose2:"Ahaha![nose3]"{"style":"thought"}
+nose2:"That.. that was...[nose3]"{"style":"thought"}
+nose3:"You have no idea how strange that felt![cum2]"{"style":"thought"}
+nose3:"I'm okay, don't worry.  It just felt weird.[cum2]"{"style":"thought"}
+nose3:"You know how when you're drinking, and you laugh so hard it spurts out your nose?[milk1]"{"style":"thought"}
+milk1:"That's what that felt like.[cum2]"{"style":"thought"}
+
+
+
+
+cum_in_mouth:"[cum]"
+
+cum_in_throat:"[CLOSE_EYES][MOAN][OPEN_EYES]Oh god, there's so much...[cum]"{"style":"thought"}
+cum_in_throat:"[SHOCK]You're cumming![cum]"{"style":"thought"}
+cum_in_throat:"[SHOCK]M-Mm! MM![cum]"{"style":"thought"}
+cum_in_throat:"I can feel it inside me![cum]"{"style":"thought"}
+
+cum:"Hah...[cum1]"{"set":{"hascum":"true","choke":"0"}}
+cum:"Ah...[cum1]"{"set":{"hascum":"true","choke":"0"}}
+cum:"Oh...[cum1]"{"set":{"hascum":"true","choke":"0"}}
+cum1:"[LOOK_UP][SWALLOW]You came...[cum2]"
+cum1:"[LOOK_UP][SWALLOW]You came again...[cum2]"{"check":{"hascum":"true"}}
+cum1:"Oh god...[cum2]"
+cum1:"Ahaha...[cum2]"
+cum1:"It's so hot...[cum2]"
+cum2:"[HAPPY_MOOD]I'm so glad I can do this for you...[cum3]"
+cum2:"[HAPPY_MOOD]I'm glad you enjoyed that...[cum3]"
+cum2:"I'll make you cum again and again, however many times you want.[cum3]"{"check":{"hascum":"true"}}
+cum2:"Did that feel good?  I did my best![cum3]"
+cum3:"I'll always be here to make you smile~"
+cum3:"I'm yours~"
+
+restart:"[HAPPY_MOOD][LOOK_UP]You're still so excited! I can always do more for you~"
+restart:"[HAPPY_MOOD][LOOK_UP]You're still rock hard. Don't worry, I can keep going for as long as you want![any1]"
+any1:"Getting to please you is so much fun~"
+restart:"[HAPPY_MOOD][LOOK_UP][any1]"
+
+finish1:"once"
+finish2:"twice"
+finish3:"three times"
+finish4:"four times"
+finish5:"five times"
+finish6:"six times"
+finish7:"seven times"
+finish8:"eight times"
+finish9:"nine times"
+finish10:"ten times"
+finishOther:"so many times"
+
+interrupt:"-Mgh!"
+interrupt:"-Mff!"
+interrupt:"-Nngh!"
+interrupt:"-Mmbh!"
+interrupt:"-Mnh!"
+interrupt:"-Hrk!"
+interrupt:"-Hrk!"
+cough:"-Aghck!"
+cough:"-Ack!"
+cough:"-Ackph!"
+cough:"-Agph!"
