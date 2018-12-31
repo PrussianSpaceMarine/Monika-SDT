@@ -14,8 +14,8 @@ look22:"[HAPPY_MOOD]You're so sweet...[look23]"
 look23:"Take as long as you want."
 intro:"[NORMAL_MOOD][LOOK_UP]What's going on*, YOU*?  We've been here a really long time![look31]"{"check":{"stare":"2"},"set":{"stare":"+1"}}
 look31:"We can do this some other time if you want..."
-intro:"[LOOK_UP][HAPPY_MOOD]*YOU!*  Are you doing okay?  However you are, I'm sure I can make you feel better~"{"check":{"intro":"false"},"set":{intro1":"true"}}
-intro:"[HAPPY_MOOD]Hmm... what could [LOOK_UP]you possibly want right now*, YOU*?[tease1]"{"check":{"intro":"false"},"set":{intro":"true"}}
+intro:"[LOOK_UP][HAPPY_MOOD]*YOU!*  Are you doing okay?  However you are, I'm sure I can make you feel better~"{"check":{"intro":"false"},"set":{"intro":"true"}}
+intro:"[HAPPY_MOOD]Hmm... what could [LOOK_UP]you possibly want right now*, YOU*?[tease1]"{"check":{"intro":"false"},"set":{"intro":"true"}}
 tease1:"Ahaha!  I'm only teasing.  Don't worry, [LOOK_DOWN]I'm more than happy to oblige..."
 
 general:"[NORMAL_MOOD][LOOK_UP]What are you waiting for? Did you get nervous all of a sudden?[look1]"{"check":{"stare":"0"},"set":{"stare":"+1"}}
